@@ -1,0 +1,32 @@
+name: ml
+
+channels:
+- conda-forge
+- defaults
+
+dependencies:
+- pandas=0.22
+- pillow
+- python=3.6
+- scipy=0.19.1
+- numpy
+- matplotlib
+- jupyter
+- opencv
+- pillow
+- scikit-learn
+- scikit-image
+- h5py
+- eventlet
+- flask-socketio
+- seaborn
+- imageio
+- wget
+- opencv
+- pip:
+  - moviepy
+  - keras=2.2.4
+  - python-socketio
+  - pyglet==1.2.4
+  - ../../../../common/ppc64/tensorflow-1.10.1-cp36-cp36m-linux_ppc64le.whl
+  - Theano==0.8.2
